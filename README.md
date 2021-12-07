@@ -1,5 +1,5 @@
 # PointCLIP: Point Cloud Understanding by CLIP
-This repository is an official implementation of the paper ['PointCLIP: Point Cloud Understanding by CLIP'](https://arxiv.org/pdf/2112.02413.pdf).
+This repository is an official implementation of the paper ['PointCLIP: Point Cloud Understanding by CLIP'](https://arxiv.org/abs/2112.02413).
 
 ## Introduction
 PointCLIP firstly applys CLIP for point cloud recognition, which transfers 2D pre-trained knowledge into 3D domains. Specifically, we encode a point cloud by projecting it into multi-view depth maps without rendering, and aggregate the view-wise predictions for zero-shot classification.
