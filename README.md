@@ -63,7 +63,7 @@ bash fewshot.sh
 `--post-search` is also optional.
 
 ### Evaluation
-Download the pre-pretrained [checkpoint](https://drive.google.com/file/d/1lngX_fP9sWc6sxm5izrqx2fqlR26ZDmz/view?usp=sharing) by 16-shot fine-tuning and put it under `ckpt/adapter/`. It will produce 86.71% on ModelNet40 test set and 87%+ by post-search:
+Download the pre-pretrained [checkpoint](https://drive.google.com/file/d/1hFswVidomLdYaWZZga6RpWRJW9-JJbHZ/view?usp=sharing) by 16-shot fine-tuning and put it under `ckpt/adapter/`. It will produce 86.71% on ModelNet40 test set and 87%+ by post-search:
 ```bash
 cd scripts
 bash eval.sh
