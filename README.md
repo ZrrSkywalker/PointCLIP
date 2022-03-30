@@ -68,7 +68,7 @@ Download the pre-pretrained [checkpoint](https://drive.google.com/file/d/1hFswVi
 cd scripts
 bash eval.sh
 ```
-You can edit the `--model-dir` to evaluate checkpoints trained by your own.
+You can edit the `--model-dir` and `--output-dir` to evaluate checkpoints trained by your own.
 
 ## Acknowlegment
 This repo benefits from [CLIP](https://github.com/openai/CLIP), [SimpleView](https://github.com/princeton-vl/SimpleView) and the excellent codebase [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch). Thanks for their wonderful works.
