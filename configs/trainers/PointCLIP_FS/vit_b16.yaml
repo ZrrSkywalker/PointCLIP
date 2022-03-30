@@ -1,0 +1,34 @@
+DATALOADER:
+  TRAIN_X:
+    BATCH_SIZE: 32
+  TEST:
+    BATCH_SIZE: 100
+  NUM_WORKERS: 8
+
+OPTIM:
+  NAME: 'sgd'
+  LR: 0.01
+  MAX_EPOCH: 250
+  LR_SCHEDULER: 'cosine'
+  WARMUP_EPOCH: 1
+  WARMUP_TYPE: 'constant'
+  WARMUP_CONS_LR: 1e-5
+
+TRAIN:
+  PRINT_FREQ: 5
+
+TEST:
+  FINAL_MODEL: 'best_val'
+
+MODEL:
+  BACKBONE:
+    NAME: 'ViT-B/16'
+    CHANNEL: 512
+  PROJECT:
+    NUM_VIEWS: 10
+  ADAPTER:
+    RATIO: 0.6
+
+SEARCH:
+  TIME: 4
+  RANGE: 1
