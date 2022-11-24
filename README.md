@@ -3,6 +3,8 @@ Official implementation of ['PointCLIP: Point Cloud Understanding by CLIP'](http
 
 The paper has been accepted by **CVPR 2022**.
 
+[PointCLIP V2](https://arxiv.org/pdf/2211.11682.pdf) with much stronger zero-shot performance will be released at [repo](https://github.com/yangyangyang127/PointCLIP_V2).
+
 ## Introduction
 PointCLIP is the first to apply CLIP for point cloud recognition, which transfers 2D pre-trained knowledge into 3D domains. To achieve zero-shot classification, we encode a point cloud by projecting it onto multi-view depth maps and aggregate the view-wise prediction in an end-to-end manner. On top of that, we design an inter-view adapter to further enhance the few-shot performance, and explore the complementary property of PointCLIP for muti-knowledge ensemble.
 
